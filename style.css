@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #1D1D23
+}
+
+h1,p{
+    color: white;
+}
+p{
+  font-size: 24px;  
+}
+#container{
+    height: 10vh;
+    width : auto ;
+    background-color:#34344A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 30px 10px;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+#setTimeInput{   
+    margin-left: 120px;
+}
+input{
+    background-color: transparent;
+    border: none; 
+    width: 100px;
+    padding-left: 30px;
+    color: white;
+    font-size: 48px;
+}
+span{
+    font-size: 48px; 
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+    text-decoration: underline;
+  }
+  
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+    text-decoration: underline;
+  }
+
+input[type="number"]:focus {
+    outline: none;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+#startTimer{
+    background: #F0F757 ;
+    border: none;
+    color: black !important;
+    font-size: 18px!important;
+    padding: 5px  40px!important;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 5vh;
+}
+
+#startTimer:hover{
+    background:#868d0a;
+}
+
+#para{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+#heading{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    height: 3vh;
+    width: 10vw;
+    margin: auto;
+    padding: 10px  40px!important;
+    border-radius: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.timer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:#34344A;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.timer {
+    font-size: 48px;
+}
+
+.timer-ended {
+    color:black;
+    padding-left: 600px;
+}
+
+.time-left {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.timer-controls {
+    display: flex;
+    justify-content: center;
+}
+
+.control-button {
+    margin: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.stop-button {
+    background-color:#F0F757;
+    color: black;
+}
+
+.stop-button:hover {
+    background-color: #868d0a;
+}
+
+.delete-button {
+    background-color: #34344A;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color:#27274a;
+}
+
+#heading {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    margin: 20px;
+    margin: auto;
+}
+
+.no-timers-text{
+    padding-top: 20px;
+}
